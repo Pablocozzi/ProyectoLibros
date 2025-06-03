@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
      if (carrito.length === 0) {
         contenedor.innerHTML = "<p class='text-red-400'>No hay productos en el carrito.</p>";
-        btnComprar.style.display = 'none'; // 👈 OCULTAR el botón
+        btnComprar.style.display = 'none'; 
         return;
     }
 
@@ -32,17 +32,15 @@ function renderizarCarrito() {
         contenedor.appendChild(div);
     });
 
-    // Asignar eventos de eliminar
     document.querySelectorAll("button[data-index]").forEach(btn => {
         btn.addEventListener("click", () => {
             const i = parseInt(btn.dataset.index);
             carrito.splice(i, 1);
             localStorage.setItem('carrito', JSON.stringify(carrito));
-            renderizarCarrito(); // Se vuelve a ejecutar esta función
+            renderizarCarrito();
         });
     });
 
-    // 👇 NUEVO: verificar si quedó vacío
     if (carrito.length === 0) {
         contenedor.innerHTML = "<p class='text-red-400'>No hay productos en el carrito.</p>";
         document.getElementById("btnComprar").style.display = "none";
@@ -51,7 +49,7 @@ function renderizarCarrito() {
     btnComprar.addEventListener("click", async () => {
         try {
             const orden = {
-                usuario: sessionStorage.getItem('usuario'), // Puedes usar sessionStorage luego
+                usuario: sessionStorage.getItem('usuario'),
                 productos: carrito,
                 total: carrito.reduce((acc, el) => acc + el.precio * el.cantidad, 0),
                 fecha: new Date().toISOString()

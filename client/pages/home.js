@@ -54,7 +54,6 @@ document.addEventListener("DOMContentLoaded", () => {
         contenedor.appendChild(div);
     });
 
-    // Asignar evento a todos los botones
     document.querySelectorAll('.btn-agregar').forEach(btn => {
         btn.addEventListener('click', () => {
             const id = parseInt(btn.dataset.id);

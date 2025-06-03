@@ -9,7 +9,6 @@ formLogIn.addEventListener('submit', (e)=>{
 })
 
 const logIn = async()=>{
-    /*Inputs del usuario */
     const userName = document.getElementById("user").value
     const pass = document.getElementById("pass").value
 
