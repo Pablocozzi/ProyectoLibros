@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     let libros = [];
 
-    fetch("./datos/data.json")
+    fetch("../../data/data.json")
         .then(res => res.json())
         .then(data => {
             libros = data;
