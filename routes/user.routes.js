@@ -2,7 +2,7 @@ import { Router } from "express";
 import { readFile } from 'fs/promises' 
 
 const router = Router()
-const fileUsers = await readFile('./data/users.json', 'utf-8')
+const fileUsers = await readFile('./client/data/users.json', 'utf-8')
 const userData = JSON.parse(fileUsers)
 
 router.post('/login', (req, res)=>{

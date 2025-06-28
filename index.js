@@ -1,6 +1,6 @@
 import express from 'express'
 import userRouter from './routes/user.routes.js' 
-
+import ventasRoutes from './routes/ventas.routes.js'
 
 const app = express()
 const port = 3001
@@ -14,3 +14,4 @@ app.listen(port,()=>{
 })
 
 app.use('/user', userRouter)
+app.use('/ventas', ventasRoutes)
