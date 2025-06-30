@@ -1,25 +1,5 @@
 [
   {
-    "id": 1751131323199,
-    "usuario": "bobsmith",
-    "productos": [
-      {
-        "id": 1,
-        "categoria": "Cocina",
-        "imagen": "../Images/portada_cocinen-ustedes_paulina-cocina_202309100049.jpg",
-        "titulo": "Cocinen ustedes",
-        "autor": "de Paulina Cocina.",
-        "info": "Este no es solo un libro de recetas para niños y niñas. Es también un libro en cuyo armado participaron una niña y un niño que cocinan: mis hijos. ",
-        "paginas": 192,
-        "precio": 2700,
-        "stock": 5,
-        "cantidad": 1
-      }
-    ],
-    "total": 2700,
-    "fecha": "2025-06-28T17:22:03.196Z"
-  },
-  {
     "id": 1751131381825,
     "usuario": "michaelbrown",
     "productos": [
@@ -78,57 +58,5 @@
     ],
     "total": 3750,
     "fecha": "2025-06-28T17:26:36.677Z"
-  },
-  {
-    "id": 1751131675112,
-    "usuario": "johndoe",
-    "productos": [
-      {
-        "id": 1,
-        "categoria": "Cocina",
-        "imagen": "../Images/portada_cocinen-ustedes_paulina-cocina_202309100049.jpg",
-        "titulo": "Cocinen ustedes",
-        "autor": "de Paulina Cocina.",
-        "info": "Este no es solo un libro de recetas para niños y niñas. Es también un libro en cuyo armado participaron una niña y un niño que cocinan: mis hijos. ",
-        "paginas": 192,
-        "precio": 2700,
-        "stock": 5,
-        "cantidad": 1
-      }
-    ],
-    "total": 2700,
-    "fecha": "2025-06-28T17:27:55.109Z"
-  },
-  {
-    "id": 1751132004265,
-    "usuario": "johndoe",
-    "productos": [
-      {
-        "id": 5,
-        "categoria": "Deportes",
-        "imagen": "../Images/tres-1000-ejercicios-del-desarrollo-muscular-4.jpg",
-        "titulo": "3000 ejercicios del desarrollo muscular",
-        "autor": "de Raquel Val Ferrer.",
-        "info": "Esta obra, dividida en tres tomos, proporciona una amplia recopilación de ejercicios para potenciar el trabajo muscular desde una perspectiva del rendimiento y de la salud. Los ejercicios se organizan según materiales y grupos musculares.",
-        "paginas": 615,
-        "precio": 7100,
-        "stock": 12,
-        "cantidad": 1
-      },
-      {
-        "id": 4,
-        "categoria": "Cocina",
-        "imagen": "../Images/portada_pan-de-campo_german-torres_202208191646.jpg",
-        "titulo": "Pan de campo",
-        "autor": "de Germán Torres.",
-        "info": "Recetas sencillas pero diferentes, repensadas, y sobre todo, interpretadas.",
-        "paginas": 256,
-        "precio": 3680,
-        "stock": 12,
-        "cantidad": 1
-      }
-    ],
-    "total": 10780,
-    "fecha": "2025-06-28T17:33:24.261Z"
   }
 ]

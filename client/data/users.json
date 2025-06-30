@@ -4,6 +4,7 @@
       "lastname": "Doe",
       "username": "johndoe",
       "pass": "pass1",
+      "rol": "usuario",
       "id": 101
     },
     {
@@ -11,6 +12,7 @@
       "lastname": "Johnson",
       "username": "alicejohn",
       "pass": "pass2",
+      "rol": "admin",
       "id": 102
     },
     {
