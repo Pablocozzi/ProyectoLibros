@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
             if (userData) {
                 try {
                     const parsedUser = JSON.parse(userData);
-                    usuario = parsedUser.userName || "Invitado";
+                    usuario = parsedUser.username || "Invitado";
                 } catch (e) {
                     console.error("Error al parsear el usuario:", e);
                 }
@@ -85,8 +85,13 @@ document.addEventListener("DOMContentLoaded", () => {
             alert("Error en la conexión.");
         }
     });
+    
 });
 
+  document.getElementById("btnCerrarSesion").addEventListener("click", () => {
+  sessionStorage.clear();  // Borra todo el sessionStorage
+  window.location.href = "../index.html"; // Redirige al login
+});
 
 
 

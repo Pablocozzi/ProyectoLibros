@@ -20,6 +20,7 @@
       "lastname": "Smith",
       "username": "bobsmith",
       "pass": "pass3",
+      "rol": "usuario",
       "id": 103
     },
     {
@@ -27,6 +28,7 @@
       "lastname": "Williams",
       "username": "emilywill",
       "pass": "pass4",
+      "rol": "usuario",
       "id": 104
     },
     {
@@ -34,6 +36,7 @@
       "lastname": "Brown",
       "username": "michaelbrown",
       "pass": "pass5",
+      "rol": "usuario",
       "id": 105
     },
     {
@@ -41,6 +44,7 @@
       "lastname": "Martinez",
       "username": "oliviamar",
       "pass": "pass6",
+      "rol": "admin",
       "id": 106
     },
     {
@@ -48,27 +52,7 @@
       "lastname": "Taylor",
       "username": "davidtaylor",
       "pass": "pass7",
+      "rol": "usuario",
       "id": 107
-    },
-    {
-      "name": "Sophia",
-      "lastname": "Lee",
-      "username": "sophialee",
-      "pass": "pass8",
-      "id": 108
-    },
-    {
-      "name": "William",
-      "lastname": "Harris",
-      "username": "williamhar",
-      "pass": "pass9",
-      "id": 109
-    },
-    {
-      "name": "Ella",
-      "lastname": "Clark",
-      "username": "ellaclark",
-      "pass": "pass10",
-      "id": 110
     }
   ]

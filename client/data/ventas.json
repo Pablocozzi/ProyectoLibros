@@ -58,5 +58,89 @@
     ],
     "total": 3750,
     "fecha": "2025-06-28T17:26:36.677Z"
+  },
+  {
+    "id": 1751327618080,
+    "usuario": "johndoe",
+    "productos": [
+      {
+        "id": 1,
+        "categoria": "Cocina",
+        "imagen": "../Images/portada_cocinen-ustedes_paulina-cocina_202309100049.jpg",
+        "titulo": "Cocinen ustedes",
+        "autor": "de Paulina Cocina.",
+        "info": "Este no es solo un libro de recetas para niños y niñas. Es también un libro en cuyo armado participaron una niña y un niño que cocinan: mis hijos. ",
+        "paginas": 192,
+        "precio": 2700,
+        "stock": 5,
+        "cantidad": 1
+      }
+    ],
+    "total": 2700,
+    "fecha": "2025-06-30T23:53:38.076Z"
+  },
+  {
+    "id": 1751328325942,
+    "usuario": "johndoe",
+    "productos": [
+      {
+        "id": 3,
+        "categoria": "Cocina",
+        "imagen": "../Images/portada_julieta-oriolo-cocina-italiana_julieta-oriolo_202207140220.jpg",
+        "titulo": "Cocina italiana",
+        "autor": "de Julieta Oriolo.",
+        "info": "En una época donde todo parece apurado y superficial, Cocina italiana nos conecta con lo profundo, con el trabajo manual y la atención a los cinco sentidos. <br> Amasar un domingo de otoño, invitar amigos, hacer una salsita rica y disfrutar de un almuerzo al abrigo del sol.",
+        "paginas": 272,
+        "precio": 3750,
+        "stock": 10,
+        "cantidad": 1
+      },
+      {
+        "id": 6,
+        "categoria": "Deportes",
+        "imagen": "../Images/triatlon-con-salud.jpg",
+        "titulo": "Triatlón con salud",
+        "autor": "de Arturo Guede Seara.",
+        "info": "Una mirada nueva y apasionada del triatlón desde la prevención. Aborda temas de gran interés para deportista, como el entrenamiento funcional y de fuerza, la recuperación después de la práctica deportiva, y la nutrición e hidratación más adecuadas para cada triatleta. Y, sobre todo, insiste en cómo disfrutar plenamente de este deporte.",
+        "paginas": 232,
+        "precio": 3500,
+        "stock": 10,
+        "cantidad": 1
+      }
+    ],
+    "total": 7250,
+    "fecha": "2025-07-01T00:05:25.939Z"
+  },
+  {
+    "id": 1751329361233,
+    "usuario": "emilywill",
+    "productos": [
+      {
+        "id": 1,
+        "categoria": "Cocina",
+        "imagen": "../Images/portada_cocinen-ustedes_paulina-cocina_202309100049.jpg",
+        "titulo": "Cocinen ustedes",
+        "autor": "de Paulina Cocina.",
+        "info": "Este no es solo un libro de recetas para niños y niñas. Es también un libro en cuyo armado participaron una niña y un niño que cocinan: mis hijos. ",
+        "paginas": 192,
+        "precio": 2700,
+        "stock": 5,
+        "cantidad": 1
+      },
+      {
+        "id": 3,
+        "categoria": "Cocina",
+        "imagen": "../Images/portada_julieta-oriolo-cocina-italiana_julieta-oriolo_202207140220.jpg",
+        "titulo": "Cocina italiana",
+        "autor": "de Julieta Oriolo.",
+        "info": "En una época donde todo parece apurado y superficial, Cocina italiana nos conecta con lo profundo, con el trabajo manual y la atención a los cinco sentidos. <br> Amasar un domingo de otoño, invitar amigos, hacer una salsita rica y disfrutar de un almuerzo al abrigo del sol.",
+        "paginas": 272,
+        "precio": 3750,
+        "stock": 10,
+        "cantidad": 1
+      }
+    ],
+    "total": 6450,
+    "fecha": "2025-07-01T00:22:41.228Z"
   }
 ]

@@ -2,6 +2,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const contenedor = document.getElementById("librosContainer");
     const selector = document.getElementById("categoria");
 
+    const nombreUsuario = JSON.parse(sessionStorage.getItem("user"))?.username || "Invitado";
+document.getElementById("usuarioNombre").textContent = `Usuario: ${nombreUsuario}`;
+
     let libros = [];
 
     fetch("../../data/data.json")
@@ -80,6 +83,11 @@ function agregarAlCarrito(libro) {
 const verCarritoBtn = document.getElementById("btnVerCarrito");
 verCarritoBtn.addEventListener("click", () => {
     window.location.href = "carrito.html";
+});
+
+  document.getElementById("btnCerrarSesion").addEventListener("click", () => {
+  sessionStorage.clear();  // Borra todo el sessionStorage
+  window.location.href = "../index.html"; // Redirige al login
 });
 
 });
