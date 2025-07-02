@@ -142,5 +142,37 @@
     ],
     "total": 6450,
     "fecha": "2025-07-01T00:22:41.228Z"
+  },
+  {
+    "id": 1751422127832,
+    "usuario": "emilywill",
+    "productos": [
+      {
+        "id": 1,
+        "categoria": "Cocina",
+        "imagen": "../Images/portada_cocinen-ustedes_paulina-cocina_202309100049.jpg",
+        "titulo": "Cocinen ustedes",
+        "autor": "de Paulina Cocina.",
+        "info": "Este no es solo un libro de recetas para niños y niñas. Es también un libro en cuyo armado participaron una niña y un niño que cocinan: mis hijos. ",
+        "paginas": 192,
+        "precio": 2700,
+        "stock": 5,
+        "cantidad": 1
+      },
+      {
+        "id": 6,
+        "categoria": "Deportes",
+        "imagen": "../Images/triatlon-con-salud.jpg",
+        "titulo": "Triatlón con salud",
+        "autor": "de Arturo Guede Seara.",
+        "info": "Una mirada nueva y apasionada del triatlón desde la prevención. Aborda temas de gran interés para deportista, como el entrenamiento funcional y de fuerza, la recuperación después de la práctica deportiva, y la nutrición e hidratación más adecuadas para cada triatleta. Y, sobre todo, insiste en cómo disfrutar plenamente de este deporte.",
+        "paginas": 232,
+        "precio": 3500,
+        "stock": 10,
+        "cantidad": 1
+      }
+    ],
+    "total": 6200,
+    "fecha": "2025-07-02T02:08:47.829Z"
   }
 ]

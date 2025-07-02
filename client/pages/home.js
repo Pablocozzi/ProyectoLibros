@@ -86,8 +86,8 @@ verCarritoBtn.addEventListener("click", () => {
 });
 
   document.getElementById("btnCerrarSesion").addEventListener("click", () => {
-  sessionStorage.clear();  // Borra todo el sessionStorage
-  window.location.href = "../index.html"; // Redirige al login
+  sessionStorage.clear();  
+  window.location.href = "../index.html"; 
 });
 
 });

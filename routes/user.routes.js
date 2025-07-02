@@ -31,48 +31,5 @@ router.post('/login', (req, res) => {
     });
   }
 }) 
-// router.post('/login', (req, res) => {
-//   const { username, pass, rol } = req.body;
-//     console.log(userData)
-//   const user = userData.find(
-//     u =>
-//       (u.username === username || u.userName === username) &&
-//       u.pass === pass &&
-//       u.rol === rol
-//   );
-
-//   if (user) {
-//     return res.status(200).json({
-//       status: true,
-//       username: user.username || user.userName,
-//       name: user.name,
-//       rol: user.rol
-//     });
-//   }
-//   console.log('Intentando login con:', req.body);
-//   res.status(400).json({ status: false, mensaje: 'Usuario o rol incorrecto' });
-// });
-
-
-// router.post('/login', (req, res)=>{
-//     const userName = req.body.userName
-//     const pass = req.body.pass
-
-//     const result = userData.find(e => e.username === userName && e.pass === pass)
-    
-//     if(result){
-//         const data = {
-//             name: result.name,
-//             lastName: result.lastname,
-//             userName: result.username,
-//             status: true
-//         }
-//         console.log(data)
-//         res.status(200).json(data)
-//     }else{
-//         res.status(400).json({status:false})
-//     }
-// })
-
 
 export default router 
