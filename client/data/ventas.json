@@ -174,5 +174,37 @@
     ],
     "total": 6200,
     "fecha": "2025-07-02T02:08:47.829Z"
+  },
+  {
+    "id": 1751423047338,
+    "usuario": "bobsmith",
+    "productos": [
+      {
+        "id": 9,
+        "categoria": "Ciencia ficcion",
+        "imagen": "../Images/la-biblia-de-los-caidos.jpg",
+        "titulo": "La Biblia de los Caídos",
+        "autor": "de Fernando Trujillo.",
+        "info": "El mundo cuenta con un lado oculto, una cara sobrenatural que nos susurra, que se intuye, pero que muy pocos perciben. La inmensa mayoría de las personas no es consciente de ese lado paranormal... ni de sus riesgos.",
+        "paginas": 422,
+        "precio": 5000,
+        "stock": 9,
+        "cantidad": 2
+      },
+      {
+        "id": 10,
+        "categoria": "Ciencia ficcion",
+        "imagen": "../Images/memorias-de-tierra-nueva-la-decima-eleccion.jpg",
+        "titulo": "Memorias de Tierra Nueva: La décima elección",
+        "autor": "de Tulio Dávila.",
+        "info": "Cada cien años gigantes, como las montañas más altas, cruzan el mar buscando devastar Tierra Nueva y, cada cien años, 12 guerreros, entre hombres y mujeres, son elegidos para combatirlos. Esta es la décima ocasión desde que los primeros héroes portaran las armas sagradas que la humanidad tendrá que hacer frente a aquel inminente peligro. Y todo parece indicar que será la peor de todas.",
+        "paginas": 643,
+        "precio": 7200,
+        "stock": 5,
+        "cantidad": 1
+      }
+    ],
+    "total": 17200,
+    "fecha": "2025-07-02T02:24:07.334Z"
   }
 ]
