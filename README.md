@@ -1,4 +1,4 @@
-Sistema web de venta de libros desarrollado para la materia **Aplicaciones Web 2**.
+Sistema web de venta de libros.
 
 Se utiliza: 
 
@@ -35,6 +35,8 @@ Vista de usuario:
 Vista de administrador:
 - Ver todas las ventas
 - Filtrar ventas por usuario
+- Total de ventas
+- Resumen de libros vendidos
 - Modificar usuario / cantidad
 - Eliminar ventas
 - Cierre de sesión
@@ -47,4 +49,4 @@ Pruebas y verificación
 
 Video con explicación del funcionamiento general del sistema:
 
-https://drive.google.com/file/d/1S2c7QnYFPq5IzY3DzFiNrSUBbKHdwS8F/view?usp=sharing
+https://drive.google.com/file/d/1E7KgTWlBfhpppRBhh5WbLZi9B6L5dxAx/view?usp=drive_link
