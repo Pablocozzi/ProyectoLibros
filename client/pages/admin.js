@@ -106,8 +106,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       resumenUsuario.innerHTML = `
         <p><strong>Usuario:</strong> ${usuario}</p>
-        <p><strong>Ventas realizadas:</strong> ${cantidadVentas}</p>
-        <p><strong>Total de artículos vendidos:</strong> ${totalArticulos}</p>
+        <p><strong>Compras realizadas:</strong> ${cantidadVentas}</p>
+        <p><strong>Total de artículos comprados:</strong> ${totalArticulos}</p>
         <p><strong>Monto total generado:</strong> $${totalGenerado}</p>
       `;
     } catch (e) {
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", () => {
     contenedor.innerHTML = `
       <p><strong>Total de ventas:</strong> ${data.totalVentas}</p>
       <p><strong>Ingreso total:</strong> $${data.montoTotal}</p>
-      <p><strong>Usuario que más compró:</strong> ${data.mejorUsuario.nombre} ($${data.mejorUsuario.gasto})</p>
+      <p><strong>Usuario con mas compras:</strong> ${data.mejorUsuario.nombre} ($${data.mejorUsuario.gasto})</p>
       <p><strong>📚 Libros más vendidos:</strong></p>
       <ul class="list-disc list-inside">
         ${data.topProductos.map(p => `<li>${p.nombre} (${p.cantidad} unidades)</li>`).join('')}

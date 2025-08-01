@@ -394,5 +394,57 @@
     ],
     "total": 3900,
     "fecha": "2025-08-01T20:13:17.874Z"
+  },
+  {
+    "id": 1754079968599,
+    "usuario": "johndoe",
+    "productos": [
+      {
+        "id": 7,
+        "categoria": "Deportes",
+        "imagen": "../Images/rafa-roger.jpg",
+        "titulo": "Rafa & Roger",
+        "autor": "de Antonio Arenas, Rafael Plaza.",
+        "info": " Partiendo de la temporada 2017, el año que vio a la legendaria pareja de contrarios volver a gobernar el circuito con puño de hierro tras tiempo en un segundo plano, los autores recorren desde dentro las personalidades, los encuentros y desencuentros de Nadal y Federer, después de compartir durante años el día a día con ellos.",
+        "paginas": 313,
+        "precio": 4550,
+        "stock": 5,
+        "cantidad": 1
+      },
+      {
+        "id": 10,
+        "categoria": "Ciencia ficcion",
+        "imagen": "../Images/memorias-de-tierra-nueva-la-decima-eleccion.jpg",
+        "titulo": "Memorias de Tierra Nueva: La décima elección",
+        "autor": "de Tulio Dávila.",
+        "info": "Cada cien años gigantes, como las montañas más altas, cruzan el mar buscando devastar Tierra Nueva y, cada cien años, 12 guerreros, entre hombres y mujeres, son elegidos para combatirlos. Esta es la décima ocasión desde que los primeros héroes portaran las armas sagradas que la humanidad tendrá que hacer frente a aquel inminente peligro. Y todo parece indicar que será la peor de todas.",
+        "paginas": 643,
+        "precio": 7200,
+        "stock": 5,
+        "cantidad": 2
+      }
+    ],
+    "total": 18950,
+    "fecha": "2025-08-01T20:26:08.594Z"
+  },
+  {
+    "id": 1754079984958,
+    "usuario": "johndoe",
+    "productos": [
+      {
+        "id": 2,
+        "categoria": "Cocina",
+        "imagen": "../Images/381926_portada_la-revolucion-de-la-glucosa-el-metodo_jessie-inchauspe_202305111308.jpg",
+        "titulo": "La revolución de la glucosa: el Método",
+        "autor": "de Jessie Inchauspé.",
+        "info": "Cuatro semanas y 100 recetas para deshacerte de los antojos, recuperar tu energía y sentirte increíble.",
+        "paginas": 288,
+        "precio": 3900,
+        "stock": 3,
+        "cantidad": 1
+      }
+    ],
+    "total": 3900,
+    "fecha": "2025-08-01T20:26:24.952Z"
   }
 ]

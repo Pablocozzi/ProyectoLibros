@@ -49,4 +49,4 @@ Pruebas y verificación
 
 Video con explicación del funcionamiento general del sistema:
 
-https://drive.google.com/file/d/1E7KgTWlBfhpppRBhh5WbLZi9B6L5dxAx/view?usp=drive_link
+https://drive.google.com/file/d/1I62CvJm4vtZfWcllnOhbfify3cJYKHWy/view?usp=drive_link
