@@ -18,7 +18,7 @@ const guardarVentas = async (data) => {
   await writeFile(ventasPath, JSON.stringify(data, null, 2));
 };
 
-// ✅ POST - Guardar nueva venta
+// POST - Guardar nueva venta
 router.post("/", async (req, res) => {
   try {
     const ventas = await leerVentas();
@@ -34,7 +34,7 @@ router.post("/", async (req, res) => {
   }
 });
 
-// ✅ GET - Obtener todas las ventas
+// GET - Obtener todas las ventas
 router.get("/", async (req, res) => {
   try {
     const ventas = await leerVentas();
@@ -44,7 +44,7 @@ router.get("/", async (req, res) => {
   }
 });
 
-// ✅ DELETE - Eliminar venta por ID
+// DELETE - Eliminar venta por ID
 router.delete("/:id", async (req, res) => {
   const id = parseInt(req.params.id);
   let ventas = await leerVentas();
@@ -56,7 +56,7 @@ router.delete("/:id", async (req, res) => {
   res.json({ mensaje: "Venta eliminada" });
 });
 
-// ✅ PUT - Modificar una venta
+// PUT - Modificar una venta
 router.put("/:id", async (req, res) => {
   const id = parseInt(req.params.id);
   const ventas = await leerVentas();
@@ -67,5 +67,49 @@ router.put("/:id", async (req, res) => {
   await guardarVentas(ventas);
   res.json({ mensaje: "Venta actualizada", venta: ventas[index] });
 });
+
+// GET - Resumen de ventas
+router.get('/resumen', async (req, res) => {
+  try {
+    const ventas = await leerVentas();
+
+    const resumen = {
+      totalVentas: ventas.length,
+      montoTotal: 0,
+      productosVendidos: {},
+      usuarios: {},
+    };
+
+    ventas.forEach((venta) => {
+      resumen.montoTotal += venta.total;
+
+      venta.productos.forEach((p) => {
+        const nombre = p.titulo;
+        resumen.productosVendidos[nombre] = (resumen.productosVendidos[nombre] || 0) + p.cantidad;
+      });
+
+      resumen.usuarios[venta.usuario] = (resumen.usuarios[venta.usuario] || 0) + venta.total;
+    });
+
+    const topProductos = Object.entries(resumen.productosVendidos)
+      .sort((a, b) => b[1] - a[1])
+      .slice(0, 5)
+      .map(([nombre, cantidad]) => ({ nombre, cantidad }));
+
+    const [mejorUsuario, gasto] = Object.entries(resumen.usuarios)
+      .sort((a, b) => b[1] - a[1])[0] || [null, 0];
+
+    res.json({
+      totalVentas: resumen.totalVentas,
+      montoTotal: resumen.montoTotal,
+      topProductos,
+      mejorUsuario: mejorUsuario ? { nombre: mejorUsuario, gasto } : null
+    });
+  } catch (error) {
+    res.status(500).json({ error: 'Error al generar resumen de ventas.' });
+  }
+});
+
+
 
 export default router;

@@ -119,4 +119,28 @@ document.addEventListener("DOMContentLoaded", () => {
     sessionStorage.clear();
     window.location.href = "../index.html";
   });
+
+  async function cargarResumenVentas() {
+  try {
+    const res = await fetch('/ventas/resumen');
+    const data = await res.json();
+
+    const contenedor = document.getElementById('contenidoResumen');
+    contenedor.innerHTML = `
+      <p><strong>Total de ventas:</strong> ${data.totalVentas}</p>
+      <p><strong>Ingreso total:</strong> $${data.montoTotal}</p>
+      <p><strong>Usuario que más compró:</strong> ${data.mejorUsuario.nombre} ($${data.mejorUsuario.gasto})</p>
+      <p><strong>📚 Libros más vendidos:</strong></p>
+      <ul class="list-disc list-inside">
+        ${data.topProductos.map(p => `<li>${p.nombre} (${p.cantidad} unidades)</li>`).join('')}
+      </ul>
+    `;
+  } catch (e) {
+    console.error('Error cargando resumen:', e);
+  }
+}
+
+cargarResumenVentas(); 
+
+
 });

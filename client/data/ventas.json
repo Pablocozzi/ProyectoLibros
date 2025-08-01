@@ -206,5 +206,69 @@
     ],
     "total": 17200,
     "fecha": "2025-07-02T02:24:07.334Z"
+  },
+  {
+    "id": 1754060742814,
+    "usuario": "johndoe",
+    "productos": [
+      {
+        "id": 5,
+        "categoria": "Deportes",
+        "imagen": "../Images/tres-1000-ejercicios-del-desarrollo-muscular-4.jpg",
+        "titulo": "3000 ejercicios del desarrollo muscular",
+        "autor": "de Raquel Val Ferrer.",
+        "info": "Esta obra, dividida en tres tomos, proporciona una amplia recopilación de ejercicios para potenciar el trabajo muscular desde una perspectiva del rendimiento y de la salud. Los ejercicios se organizan según materiales y grupos musculares.",
+        "paginas": 615,
+        "precio": 7100,
+        "stock": 12,
+        "cantidad": 1
+      },
+      {
+        "id": 7,
+        "categoria": "Deportes",
+        "imagen": "../Images/rafa-roger.jpg",
+        "titulo": "Rafa & Roger",
+        "autor": "de Antonio Arenas, Rafael Plaza.",
+        "info": " Partiendo de la temporada 2017, el año que vio a la legendaria pareja de contrarios volver a gobernar el circuito con puño de hierro tras tiempo en un segundo plano, los autores recorren desde dentro las personalidades, los encuentros y desencuentros de Nadal y Federer, después de compartir durante años el día a día con ellos.",
+        "paginas": 313,
+        "precio": 4550,
+        "stock": 5,
+        "cantidad": 2
+      }
+    ],
+    "total": 16200,
+    "fecha": "2025-08-01T15:05:42.810Z"
+  },
+  {
+    "id": 1754060755420,
+    "usuario": "johndoe",
+    "productos": [
+      {
+        "id": 10,
+        "categoria": "Ciencia ficcion",
+        "imagen": "../Images/memorias-de-tierra-nueva-la-decima-eleccion.jpg",
+        "titulo": "Memorias de Tierra Nueva: La décima elección",
+        "autor": "de Tulio Dávila.",
+        "info": "Cada cien años gigantes, como las montañas más altas, cruzan el mar buscando devastar Tierra Nueva y, cada cien años, 12 guerreros, entre hombres y mujeres, son elegidos para combatirlos. Esta es la décima ocasión desde que los primeros héroes portaran las armas sagradas que la humanidad tendrá que hacer frente a aquel inminente peligro. Y todo parece indicar que será la peor de todas.",
+        "paginas": 643,
+        "precio": 7200,
+        "stock": 5,
+        "cantidad": 1
+      },
+      {
+        "id": 9,
+        "categoria": "Ciencia ficcion",
+        "imagen": "../Images/la-biblia-de-los-caidos.jpg",
+        "titulo": "La Biblia de los Caídos",
+        "autor": "de Fernando Trujillo.",
+        "info": "El mundo cuenta con un lado oculto, una cara sobrenatural que nos susurra, que se intuye, pero que muy pocos perciben. La inmensa mayoría de las personas no es consciente de ese lado paranormal... ni de sus riesgos.",
+        "paginas": 422,
+        "precio": 5000,
+        "stock": 9,
+        "cantidad": 1
+      }
+    ],
+    "total": 12200,
+    "fecha": "2025-08-01T15:05:55.418Z"
   }
 ]
